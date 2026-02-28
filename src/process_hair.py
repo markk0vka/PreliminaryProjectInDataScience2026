@@ -4,10 +4,9 @@ from os.path import join
 from img_util import ImageDataLoader, saveImageFile
 from inpaint_util import removeHair
 
-
-# Ruta ABSOLUTA (más seguro ahora mismo)
-input_dir = r"C:\Users\ruben\Desktop\Data Science\2nd YEAR\2nd SEMESTER\Projects in Data Science\data\lesion"
-output_dir = r"C:\Users\ruben\Desktop\Data Science\2nd YEAR\2nd SEMESTER\Projects in Data Science\Preliminary Assignment\PreliminaryProjectInDataScience2026\result\hair_removed"
+#CHANGE THIS PATH TO YOUR OWN PATHS
+input_dir = r""
+output_dir = r""
 
 os.makedirs(output_dir, exist_ok=True)
 
